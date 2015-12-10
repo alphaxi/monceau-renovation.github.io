@@ -1,0 +1,107 @@
+.pyram
+  margin: 100px auto
+  text-align: center
+
+.text-pyram
+  margin: 50px auto
+  a
+    margin: auto auto
+    .logo-pyram
+      width: 560px
+      max-width: 90%
+      height: 100%
+
+.pres-pyram
+  p
+    margin: 50px auto
+    max-width: 80%
+
+.img-pyram
+  max-width: 80%
+  height: auto
+  margin: auto
+
+.plan-travail
+  padding: 100px 0
+  background-color: $silver
+
+  .pres-pt
+    // display: inline-block
+    margin: auto
+    width: 90%
+    text-align: justify
+    +clearfix
+
+    .img-pt
+      +display(flex)
+      width: 100%
+      margin: 50px auto
+
+      .img-stratagem
+        +display(flex)
+        width: 45%
+        margin: auto
+
+      .img-torre
+        +display(flex)
+        width: 45%
+        margin: auto
+
+      .im01
+        width: 70%
+        height: 100%
+        margin: 0
+
+      a
+        margin: 0
+        height: 100%
+        margin: 0 0 0 20px
+        width: 50%
+        .im02
+          width: 100%
+          // height: 100%
+          padding: 0
+          // margin-left: 20px
+
+@media screen and (max-width: 800px)
+  .pyram
+
+    .pres-pyram
+      margin: 50px auto
+      display: inline-block
+
+      .img-pyram
+        width: 90%
+
+      .text-pyram
+        width: 90%
+
+        a
+          .logo-pyram
+            width: 90%
+
+  .plan-travail
+    +clearfix
+
+    .pres-pt
+      margin: 50px auto
+
+      .img-pt
+        display: inline-block
+        margin-top: 0
+
+        .img-stratagem, .img-torre
+          display: inline-block
+          width: 100%
+          // margin: auto
+
+        .im01
+          width: 100%
+          padding-top: 50px
+
+        a
+          margin: 0
+          height: 100%
+          .im02
+            width: 50%
+            height: 100%

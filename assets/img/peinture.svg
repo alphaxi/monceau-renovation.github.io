@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   height="50"
+   width="50"
+   version="1.1"
+   id="icon-paint-format">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>paint-format</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9">
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient5579">
+      <stop
+         id="stop5581"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+    <color-profile
+       id="color-profile3341"
+       xlink:href="/usr/share/color/icc/colord/sRGB.icc"
+       name="sRGB" />
+  </defs>
+  <title
+     id="title3">paint-format</title>
+  <path
+     id="path5"
+     d="m 40,25.9375 0,-11.25 -5.625,0 0,-1.875 c 0,-1.031259 -0.843741,-1.875 -1.875,-1.875 l -20.625,0 c -1.031257,0 -1.875,0.843741 -1.875,1.875 l 0,5.625 c 0,1.031244 0.843743,1.875 1.875,1.875 l 20.625,0 c 1.031259,0 1.875,-0.843756 1.875,-1.875 l 0,-1.875 3.75,0 0,7.5 -16.875,0 0,3.75 -0.937495,0 c -0.517768,0 -0.937505,0.419737 -0.937505,0.937505 l 0,9.375 c 0,0.517758 0.419737,0.937495 0.937505,0.937495 l 3.75,0 C 24.580263,39.0625 25,38.642763 25,38.125005 l 0,-9.375 C 25,28.232237 24.580263,27.8125 24.062505,27.8125 l -0.937505,0 0,-1.875 16.875,0 z m -7.5,-11.25 -20.625,0 0,-1.875 20.625,0 0,1.875 z"
+     class="path1" />
+</svg>
