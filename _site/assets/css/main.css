@@ -714,6 +714,18 @@ footer {
         .plan-travail .pres-pt .img-pt a .im02 {
           width: 50%;
           height: 100%; } }
+.electromenager {
+  padding: 100px 0; }
+  .electromenager p {
+    max-width: 80%;
+    margin: 50px auto; }
+
+.logo-agensia a img {
+  width: 400px;
+  max-width: 80%;
+  height: auto;
+  margin: auto auto 25px; }
+
 .sdb {
   margin: 100px auto; }
   .sdb .txtsdb {
@@ -794,6 +806,8 @@ footer {
   .meubles p {
     width: 90%;
     margin: auto; }
+  .meubles h1 {
+    margin-bottom: 50px; }
 
 .logo-amb {
   margin: 50px auto; }
@@ -814,13 +828,15 @@ footer {
   margin: auto;
   text-align: center;
   background-color: #DDDDDD; }
+  .peinture h1 {
+    margin-bottom: 50px; }
   .peinture h2 {
     margin: 50px auto; }
   .peinture p {
     width: 80%;
     margin: auto;
     text-align: center;
-    margin-bottom: 100px; }
+    margin-bottom: 50px; }
   .peinture img {
     max-width: 80%;
     height: auto; }
@@ -843,17 +859,33 @@ ul {
     margin: 50px auto; }
   .carrelage img {
     max-width: 80%;
+    height: auto;
+    padding: auto; }
+
+.logos-carrelage a img {
+  margin: 50px 0;
+  width: 300px;
+  height: auto; }
+
+.paco {
+  padding: 100px 0;
+  background-color: #DDDDDD; }
+  .paco p {
+    margin: 100px auto 50px;
+    max-width: 80%; }
+  .paco img {
+    margin: 50px auto;
+    width: 700px;
+    max-width: 80%;
     height: auto; }
 
-.logos-carrelage a {
+.logo-paco a {
+  border: solid;
+  padding: 15px;
   text-transform: uppercase;
   color: #868082;
   font-size: 36px;
   font-family: Abel, Arial, Helvetica, sans-serif; }
-  .logos-carrelage a img {
-    margin: 50px 0;
-    width: 300px;
-    height: auto; }
 
 .clage {
   padding: 100px 0; }
