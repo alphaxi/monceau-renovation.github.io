@@ -810,6 +810,16 @@ footer {
     justify-content: space-around;
     -ms-flex-pack: distribute; }
 
+.kerdi {
+  padding: 100px 0;
+  background-color: #DDDDDD; }
+  .kerdi p {
+    max-width: 80%;
+    margin: 50px auto; }
+  .kerdi img {
+    max-width: 80%;
+    height: auto; }
+
 .meubles {
   margin: 100px auto;
   text-align: center; }
@@ -897,6 +907,17 @@ ul {
   font-size: 36px;
   font-family: Abel, Arial, Helvetica, sans-serif; }
 
+.fenetres {
+  padding: 100px 0; }
+  .fenetres div {
+    margin-bottom: 50px; }
+  .fenetres p {
+    max-width: 80%;
+    margin: 50px auto; }
+  .fenetres img {
+    max-width: 80%;
+    height: auto; }
+
 .clage {
   padding: 100px 0; }
   .clage div {
@@ -952,3 +973,12 @@ ul {
 .img-blum11 img {
   height: auto;
   max-width: 80%; }
+
+.porte {
+  padding: 100px 0;
+  background-color: #DDDDDD; }
+  .porte div {
+    margin-bottom: 50px; }
+  .porte p {
+    max-width: 80%;
+    margin: 50px auto; }
