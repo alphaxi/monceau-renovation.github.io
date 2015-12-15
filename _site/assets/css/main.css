@@ -583,17 +583,17 @@ footer {
       margin: 5px 10px; }
       .mr-info .droite nav {
         font-size: 6px; } }
+.presentation {
+  text-align: center; }
+  .presentation h1 {
+    margin: 100px auto; }
+
 .texte-pres {
-  width: 960px;
   max-width: 85%;
   padding: 0 15px;
-  margin: 100px auto;
+  margin: auto auto 100px;
   font-weight: 300;
-  font-size: 20px;
-  text-align: center;
-  border-top: solid;
-  border-bottom: solid;
-  border-width: 1px; }
+  text-align: center; }
 
 .img-accueil {
   display: block;
@@ -602,10 +602,20 @@ footer {
   height: auto;
   box-shadow: 10px 10px 5px #111111; }
 
-@media screen and (max-width: 580px) {
-  .texte-pres {
-    font-size: 10px;
-    margin: 50px auto; } }
+.outils {
+  padding: 100px 0;
+  background-color: #DDDDDD; }
+
+.img-winner {
+  margin: 50px auto; }
+  .img-winner img {
+    max-width: 80%;
+    height: auto;
+    margin: 50px 30px; }
+  .img-winner p {
+    max-width: 80%;
+    margin: auto; }
+
 .pyram {
   margin: 100px auto;
   text-align: center; }
@@ -896,8 +906,12 @@ ul {
       max-width: 80%;
       height: auto; }
   .clage p {
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 80%; }
+  .clage ul {
+    text-align: left;
+    margin: auto 700px;
+    margin-right: 50px; }
 
 .img-clage {
   margin: 50px auto;
@@ -905,7 +919,6 @@ ul {
   .img-clage img {
     margin: 15px 30px;
     max-width: 80%;
-    width: 250px;
     height: auto; }
 
 .grohe {
@@ -914,7 +927,7 @@ ul {
   .grohe div {
     margin: 50px auto; }
     .grohe div a img {
-      width: 600px;
+      width: 400px;
       max-width: 80%;
       height: auto; }
   .grohe p {
@@ -929,12 +942,13 @@ ul {
   .blum div {
     margin: 50px auto; }
     .blum div a img {
-      width: 600px;
+      width: 400px;
       max-width: 80%;
       height: auto; }
   .blum p {
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 80%; }
-  .blum img {
-    width: 80%;
-    height: auto; }
+
+.img-blum11 img {
+  height: auto;
+  max-width: 80%; }
