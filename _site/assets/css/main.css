@@ -409,7 +409,15 @@ h2 {
   text-transform: uppercase; }
 
 section {
-  text-align: center; }
+  text-align: center;
+  padding: 100px 0; }
+
+p {
+  max-width: 80%;
+  margin: 50px auto; }
+
+.france {
+  width: 100px; }
 
 header {
   height: 213px;
@@ -583,27 +591,7 @@ footer {
       margin: 5px 10px; }
       .mr-info .droite nav {
         font-size: 6px; } }
-.presentation {
-  text-align: center; }
-  .presentation h1 {
-    margin: 100px auto; }
-
-.texte-pres {
-  max-width: 85%;
-  padding: 0 15px;
-  margin: auto auto 100px;
-  font-weight: 300;
-  text-align: center; }
-
-.img-accueil {
-  display: block;
-  margin: 0 auto 100px;
-  max-width: 90%;
-  height: auto;
-  box-shadow: 10px 10px 5px #111111; }
-
 .outils {
-  padding: 100px 0;
   background-color: #DDDDDD; }
 
 .img-winner {
@@ -616,22 +604,15 @@ footer {
     max-width: 80%;
     margin: auto; }
 
-.pyram {
-  margin: 100px auto;
-  text-align: center; }
-
-.text-pyram {
-  margin: 50px auto; }
-  .text-pyram a {
-    margin: auto auto; }
-    .text-pyram a .logo-pyram {
-      width: 560px;
-      max-width: 90%;
-      height: 100%; }
-
-.pres-pyram p {
-  margin: 50px auto;
-  max-width: 80%; }
+.logo-pyram {
+  max-width: 80%;
+  margin: auto; }
+  .logo-pyram img {
+    margin-bottom: 50px; }
+  .logo-pyram a img {
+    width: 500px;
+    max-width: 100%;
+    height: auto; }
 
 .img-pyram {
   max-width: 80%;
@@ -639,151 +620,106 @@ footer {
   margin: auto; }
 
 .plan-travail {
-  padding: 100px 0;
   background-color: #DDDDDD; }
-  .plan-travail .pres-pt {
-    margin: auto;
-    width: 90%;
-    text-align: justify; }
-    .plan-travail .pres-pt::after {
-      clear: both;
-      content: "";
-      display: table; }
-    .plan-travail .pres-pt .img-pt {
-      display: -webkit-box;
-      display: -moz-box;
-      display: box;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flexbox;
-      display: flex;
-      width: 100%;
-      margin: 50px auto; }
-      .plan-travail .pres-pt .img-pt .img-stratagem {
-        display: -webkit-box;
-        display: -moz-box;
-        display: box;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flexbox;
-        display: flex;
-        width: 45%;
-        margin: auto; }
-      .plan-travail .pres-pt .img-pt .img-torre {
-        display: -webkit-box;
-        display: -moz-box;
-        display: box;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flexbox;
-        display: flex;
-        width: 45%;
-        margin: auto; }
-      .plan-travail .pres-pt .img-pt .im01 {
-        width: 70%;
-        height: 100%;
-        margin: 0; }
-      .plan-travail .pres-pt .img-pt a {
-        margin: 0;
-        height: 100%;
-        margin: 0 0 0 20px;
-        width: 50%; }
-        .plan-travail .pres-pt .img-pt a .im02 {
-          width: 100%;
-          padding: 0; }
 
-@media screen and (max-width: 800px) {
-  .pyram .pres-pyram {
-    margin: 50px auto;
-    display: inline-block; }
-    .pyram .pres-pyram .img-pyram {
-      width: 90%; }
-    .pyram .pres-pyram .text-pyram {
-      width: 90%; }
-      .pyram .pres-pyram .text-pyram a .logo-pyram {
-        width: 90%; }
+.center {
+  margin: auto;
+  display: table;
+  max-width: 80%; }
+  .center ul {
+    text-align: left;
+    -webkit-columns: 150px 2;
+    -moz-columns: 150px 2;
+    columns: 150px 2; }
 
-  .plan-travail::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .plan-travail .pres-pt {
-    margin: 50px auto; }
-    .plan-travail .pres-pt .img-pt {
-      display: inline-block;
-      margin-top: 0; }
-      .plan-travail .pres-pt .img-pt .img-stratagem, .plan-travail .pres-pt .img-pt .img-torre {
-        display: inline-block;
-        width: 100%; }
-      .plan-travail .pres-pt .img-pt .im01 {
-        width: 100%;
-        padding-top: 50px; }
-      .plan-travail .pres-pt .img-pt a {
-        margin: 0;
-        height: 100%; }
-        .plan-travail .pres-pt .img-pt a .im02 {
-          width: 50%;
-          height: 100%; } }
+.imgblock {
+  display: inline-block;
+  margin: 50px auto;
+  max-width: 80%; }
+  .imgblock img {
+    max-width: 80%;
+    height: auto; }
+
 .electromenager {
   padding: 100px 0; }
   .electromenager p {
     max-width: 80%;
     margin: 50px auto; }
+    .electromenager p u {
+      text-decoration: underline;
+      text-decoration-style: double; }
 
 .logo-agensia a img {
   width: 400px;
   max-width: 80%;
   height: auto;
-  margin: auto auto 25px; }
+  margin: auto auto 25px;
+  border: solid;
+  border-width: thin;
+  border-color: #AAAAAA;
+  padding: 0.5%; }
 
-.sdb {
-  margin: 100px auto; }
-  .sdb .txtsdb {
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    margin-top: 50px; }
+.cuisbain {
+  padding: 100px 0;
+  background-color: #DDDDDD; }
+  .cuisbain p {
+    max-width: 80%;
+    margin: 50px auto; }
+
+.logo-cuisbain img {
+  background-color: red;
+  margin-bottom: 50px;
+  max-width: 80%;
+  height: auto; }
 
 .kinedo {
   padding: 100px 0 100px 0;
   width: 100%;
   background-color: #DDDDDD; }
+  .kinedo a img {
+    max-width: 90%;
+    height: auto; }
   .kinedo p {
     max-width: 80%; }
-  .kinedo .frame {
-    margin: auto;
-    max-width: 80%;
-    border: double; }
-  .kinedo .av-ap {
-    margin: auto;
-    height: auto;
-    max-width: 75%; }
-  .kinedo .img-serenite {
-    margin: 50px auto;
-    max-width: 80%;
-    -webkit-box-pack: distribute;
-    -moz-box-pack: distribute;
-    box-pack: distribute;
-    -webkit-justify-content: space-around;
-    -moz-justify-content: space-around;
-    -ms-justify-content: space-around;
-    -o-justify-content: space-around;
-    justify-content: space-around;
-    -ms-flex-pack: distribute;
-    height: 100%; }
-    .kinedo .img-serenite [class^="sere-"] {
-      margin: 15px 15px;
-      max-width: 80%;
-      height: auto; }
 
-.logo-kinedo {
-  max-width: 90%;
+.frame {
+  margin: auto;
+  max-width: 80%;
+  border: double; }
+
+.av-ap {
+  margin: auto;
+  height: auto;
+  max-width: 75%; }
+
+.img-serenite {
+  margin: 50px auto;
+  max-width: 80%;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
   height: 100%; }
+  .img-serenite [class^="sere-"] {
+    margin: 15px 15px;
+    max-width: 80%;
+    height: auto; }
 
-.smo {
-  margin: 100px auto; }
-  .smo h2 {
-    margin: 50px auto; }
+.smo h2 {
+  margin: 50px auto; }
+
+.logo-smo a img {
+  border: solid;
+  border-color: #AAAAAA;
+  border-width: thin;
+  padding: 15px;
+  max-width: 80%;
+  height: auto; }
 
 .text-smo {
   margin: auto;
@@ -820,6 +756,18 @@ footer {
     max-width: 80%;
     height: auto; }
 
+.aubade {
+  padding: 100px 0; }
+  .aubade div {
+    margin-bottom: 50px; }
+  .aubade p {
+    max-width: 80%;
+    margin: 50px auto; }
+  .aubade img {
+    margin: 25px auto 100px;
+    max-width: 80%;
+    height: auto; }
+
 .meubles {
   margin: 100px auto;
   text-align: center; }
@@ -834,6 +782,12 @@ footer {
   .logo-amb a img {
     max-width: 80%;
     height: 100%; }
+
+.ambd {
+  border: solid;
+  border-color: #111111;
+  border-width: thin;
+  padding: 15px; }
 
 .img-amb {
   max-width: 90%;
@@ -929,10 +883,13 @@ ul {
   .clage p {
     margin: 50px auto;
     max-width: 80%; }
-  .clage ul {
-    text-align: left;
-    margin: auto 700px;
-    margin-right: 50px; }
+
+.list {
+  margin: auto;
+  display: table;
+  max-width: 80%; }
+  .list ul {
+    text-align: left; }
 
 .img-clage {
   margin: 50px auto;
@@ -982,3 +939,6 @@ ul {
   .porte p {
     max-width: 80%;
     margin: 50px auto; }
+  .porte img {
+    max-width: 80%;
+    height: auto; }
