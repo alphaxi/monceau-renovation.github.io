@@ -665,6 +665,13 @@ footer {
   .cuisbain p {
     max-width: 80%;
     margin: 50px auto; }
+    .cuisbain p a {
+      color: #111111; }
+    .cuisbain p a:hover {
+      text-decoration: underline; }
+  .cuisbain img {
+    max-width: 80%;
+    height: auto; }
 
 .logo-cuisbain img {
   background-color: red;
