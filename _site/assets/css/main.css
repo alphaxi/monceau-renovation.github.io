@@ -571,11 +571,13 @@ footer {
     float: right;
     text-align: right;
     margin: 30px 20px 0 0; }
-    .mr-info .droite nav {
-      text-transform: uppercase;
-      font-size: 14px; }
-      .mr-info .droite nav a:hover {
-        font-weight: 400; }
+    .mr-info .droite p {
+      max-width: 100%; }
+  .mr-info nav {
+    text-transform: uppercase;
+    font-size: 14px; }
+    .mr-info nav a:hover {
+      font-weight: 400; }
 
 @media screen and (max-width: 810px) {
   footer {
